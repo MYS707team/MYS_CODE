@@ -5,8 +5,8 @@ Windows va Linux uchun MYS CODE ilovasi.
 ## Yuklab olish
 
 - **Windows 10/11 x64:** [MYS-CODE-Windows-1.0.2.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Windows-1.0.2.zip) · [SHA-256 tekshirish fayli](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/SHA256SUMS.txt) · [setup EXE](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Setup-1.0.2.exe).
-- **Linux x64 AppImage:** [MYS-CODE-1.0.1-linux-x64.AppImage](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-1.0.1-linux-x64.AppImage).
-- **Debian/Ubuntu x64:** [MYS-CODE-1.0.1-linux-x64.deb](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-1.0.1-linux-x64.deb).
+- **Linux x64 AppImage:** [MYS-CODE-Linux-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Linux-1.0.1.zip) · [SHA-256](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/SHA256SUMS.txt).
+- **Ubuntu / Debian x64:** [MYS-CODE-Ubuntu-Debian-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Ubuntu-Debian-1.0.1.zip) · [SHA-256](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/SHA256SUMS.txt).
 
 ## Windows ZIP va SHA-256
 
@@ -17,6 +17,32 @@ Windows va Linux uchun MYS CODE ilovasi.
 5. Hash mos bo‘lsa, `MYS-CODE-Setup-1.0.2.exe` ni ochib o‘rnatishni tugating.
 
 SHA-256 yuklangan faylning o‘zgarmaganini tekshiradi; har yangi reliz uchun boshqa qiymat hisoblanadi. Joriy installer raqamli imzolanmagan. ZIP yoki SHA-256 SmartScreen ogohlantirishini avtomatik olib tashlamaydi.
+
+## Linux va Ubuntu / Debian ZIP
+
+- **Linux x64 AppImage:** [MYS-CODE-Linux-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Linux-1.0.1.zip).
+- **Ubuntu / Debian x64 DEB:** [MYS-CODE-Ubuntu-Debian-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Ubuntu-Debian-1.0.1.zip).
+- [SHA256SUMS.txt](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/SHA256SUMS.txt): ZIP va installerlar uchun SHA-256 qiymatlari.
+
+Yuklangan ZIP hashini `sha256sum MYS-CODE-Linux-1.0.1.zip` yoki `sha256sum MYS-CODE-Ubuntu-Debian-1.0.1.zip` bilan tekshiring va `SHA256SUMS.txt` dagi mos qator bilan solishtiring.
+ZIPni **Extract** bilan alohida papkaga chiqaring. Har bir ZIP ichida faqat installer va uning `.sha256` tekshirish fayli bor.
+
+Linux AppImage chiqarilgan papkada:
+
+```sh
+sha256sum -c MYS-CODE-1.0.1-linux-x64.AppImage.sha256
+chmod +x MYS-CODE-1.0.1-linux-x64.AppImage
+./MYS-CODE-1.0.1-linux-x64.AppImage
+```
+
+Ubuntu / Debian DEB chiqarilgan papkada:
+
+```sh
+sha256sum -c MYS-CODE-1.0.1-linux-x64.deb.sha256
+sudo apt install ./MYS-CODE-1.0.1-linux-x64.deb
+```
+
+Hash tekshiruvi `OK` chiqmasa, installerni ishga tushirmang. Linux o‘rnatish bo‘yicha FUSE ko‘rsatmasi quyida berilgan.
 
 ## O‘rnatish
 

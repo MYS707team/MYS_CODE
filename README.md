@@ -4,9 +4,19 @@ Windows va Linux uchun MYS CODE ilovasi.
 
 ## Yuklab olish
 
-- **Windows 10/11 x64:** [MYS-CODE-Setup-1.0.2.exe](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Setup-1.0.2.exe).
+- **Windows 10/11 x64:** [MYS-CODE-Windows-1.0.2.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Windows-1.0.2.zip) · [SHA-256 tekshirish fayli](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/SHA256SUMS.txt) · [setup EXE](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Setup-1.0.2.exe).
 - **Linux x64 AppImage:** [MYS-CODE-1.0.1-linux-x64.AppImage](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-1.0.1-linux-x64.AppImage).
 - **Debian/Ubuntu x64:** [MYS-CODE-1.0.1-linux-x64.deb](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-1.0.1-linux-x64.deb).
+
+## Windows ZIP va SHA-256
+
+1. [MYS-CODE-Windows-1.0.2.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/MYS-CODE-Windows-1.0.2.zip) va [SHA256SUMS.txt](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.2/SHA256SUMS.txt) fayllarini yuklab oling.
+2. PowerShell’da ZIP saqlangan papkada `Get-FileHash .\MYS-CODE-Windows-1.0.2.zip -Algorithm SHA256` ni ishga tushiring. Natijani `SHA256SUMS.txt` dagi ZIP qatori bilan solishtiring.
+3. ZIP uchun **Extract all** ni tanlang. Ichida setup EXE va uning `.sha256` tekshirish fayli bor.
+4. EXE uchun `Get-FileHash .\MYS-CODE-Setup-1.0.2.exe -Algorithm SHA256` natijasini shu tekshirish fayli bilan solishtiring. Hash mos kelmasa, installerni ishga tushirmang.
+5. Hash mos bo‘lsa, `MYS-CODE-Setup-1.0.2.exe` ni ochib o‘rnatishni tugating.
+
+SHA-256 yuklangan faylning o‘zgarmaganini tekshiradi; har yangi reliz uchun boshqa qiymat hisoblanadi. Joriy installer raqamli imzolanmagan. ZIP yoki SHA-256 SmartScreen ogohlantirishini avtomatik olib tashlamaydi.
 
 ## O‘rnatish
 

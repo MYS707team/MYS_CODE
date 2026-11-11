@@ -4,17 +4,17 @@ Windows va Linux uchun MYS CODE ilovasi.
 
 ## Yuklab olish
 
-- **Windows 10/11 x64:** [MYS-CODE-Windows-1.0.3.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.3/MYS-CODE-Windows-1.0.3.zip) · [SHA-256 tekshirish fayli](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.3/SHA256SUMS.txt) · [setup EXE](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.3/MYS-CODE-Setup-1.0.3.exe).
+- **Windows 10/11 x64:** [MYS-CODE-Windows-1.0.4.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.4/MYS-CODE-Windows-1.0.4.zip) · [SHA-256 tekshirish fayli](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.4/SHA256SUMS.txt) · [setup EXE](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.4/MYS-CODE-Setup-1.0.4.exe).
 - **Linux x64 AppImage:** [MYS-CODE-Linux-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Linux-1.0.1.zip) · [SHA-256](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/SHA256SUMS.txt).
 - **Ubuntu / Debian x64:** [MYS-CODE-Ubuntu-Debian-1.0.1.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/MYS-CODE-Ubuntu-Debian-1.0.1.zip) · [SHA-256](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.1/SHA256SUMS.txt).
 
 ## Windows ZIP va SHA-256
 
-1. [MYS-CODE-Windows-1.0.3.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.3/MYS-CODE-Windows-1.0.3.zip) va [SHA256SUMS.txt](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.3/SHA256SUMS.txt) fayllarini yuklab oling.
-2. PowerShell’da ZIP saqlangan papkada `Get-FileHash .\MYS-CODE-Windows-1.0.3.zip -Algorithm SHA256` ni ishga tushiring. Natijani `SHA256SUMS.txt` dagi ZIP qatori bilan solishtiring.
+1. [MYS-CODE-Windows-1.0.4.zip](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.4/MYS-CODE-Windows-1.0.4.zip) va [SHA256SUMS.txt](https://github.com/MYS707team/MYS_CODE/releases/download/v1.0.4/SHA256SUMS.txt) fayllarini yuklab oling.
+2. PowerShell’da ZIP saqlangan papkada `Get-FileHash .\MYS-CODE-Windows-1.0.4.zip -Algorithm SHA256` ni ishga tushiring. Natijani `SHA256SUMS.txt` dagi ZIP qatori bilan solishtiring.
 3. ZIP uchun **Extract all** ni tanlang. Ichida setup EXE va uning `.sha256` tekshirish fayli bor.
-4. EXE uchun `Get-FileHash .\MYS-CODE-Setup-1.0.3.exe -Algorithm SHA256` natijasini shu tekshirish fayli bilan solishtiring. Hash mos kelmasa, installerni ishga tushirmang.
-5. Hash mos bo‘lsa, `MYS-CODE-Setup-1.0.3.exe` ni ochib o‘rnatishni tugating.
+4. EXE uchun `Get-FileHash .\MYS-CODE-Setup-1.0.4.exe -Algorithm SHA256` natijasini shu tekshirish fayli bilan solishtiring. Hash mos kelmasa, installerni ishga tushirmang.
+5. Hash mos bo‘lsa, `MYS-CODE-Setup-1.0.4.exe` ni ochib o‘rnatishni tugating.
 
 SHA-256 yuklangan faylning o‘zgarmaganini tekshiradi; har yangi reliz uchun boshqa qiymat hisoblanadi. Joriy installer raqamli imzolanmagan. ZIP yoki SHA-256 SmartScreen ogohlantirishini avtomatik olib tashlamaydi.
 
@@ -78,7 +78,7 @@ Alohida source ZIP yoki Python yuklab olish kerak emas.
 1. Ilovada **Settings → Browser extension → Open extension folder** ni oching.
 2. Chrome’da `chrome://extensions`, Windows Edge’da `edge://extensions` sahifasini oching.
 3. **Developer mode** ni yoqing, **Load unpacked** ni bosing va ochilgan extension
-   papkasini tanlang va AI sahifasini yangilang. Windows v1.0.3 avtomatik ulanadi;
+   papkasini tanlang va AI sahifasini yangilang. Windows v1.0.4 avtomatik ulanadi;
    Linux v1.0.1’da Desktop’dagi extension ID tasdig‘i hali kerak.
 
 Yangilanishdan so‘ng brauzer extensionini **Reload** qiling va AI sahifalarini
@@ -86,12 +86,12 @@ yangilang. Linux yangilanishini shu relizdagi yangi installer orqali o‘rnating
 
 macOS uchun installer hozir mavjud emas.
 
-Windows 1.0.3 o‘rnatilgach, yangi versiya uchun yuqori o‘ngdagi **Update** yoki
+Windows 1.0.4 o‘rnatilgach, yangi versiya uchun yuqori o‘ngdagi **Update** yoki
 **Settings → Updates → Install update** ni bosing. **Auto update** yoqilganida
 ilova trayda va AI chatlar ulanmagan bo‘lsa, bo‘sh sessiyalar avtomatik
 to‘xtatiladi va yangilanish o‘rnatiladi.
 
-Windows v1.0.3 o‘rnatilgach, brauzerdagi MYS CODE extensionini **Reload** qiling
+Windows v1.0.4 o‘rnatilgach, brauzerdagi MYS CODE extensionini **Reload** qiling
 va AI chat sahifasini yangilang. Desktop’da hisobingizga kirib, **Start session**
 ni bosing: MCP va extension avtomatik ulanadi; **Allow extension** tasdig‘i
 kerak emas. Yangi chat bo‘sh faol sessiyani tanlaydi. Chatda **Start** ni bosing.
@@ -99,3 +99,11 @@ Faol AI chat egallagan sessiya band; **Pause**, **Stop** yoki chat yopilishi
 uni bo‘shatadi. Oldingi chat o‘z sessiyasini saqlaydi. Roblox place ochiq
 bo‘lmasa, ko‘rsatilgan place’ni Studio’da oching va MCP serverini yoqing.
 Saqlangan Studio ID o‘zgarmaydi; zarur bo‘lsa **Reconnect place** ni bosing.
+
+Windows v1.0.4: Desktop ochiq, lekin chatdagi sessiya to‘xtagan bo‘lsa (masalan,
+Quit yoki yangilanishdan keyin), AI chat panelida **Start session** tugmasi
+chiqadi. U o‘sha saqlangan sessiyani ishga tushiradi va sozlashni davom
+ettiradi. Computer Use faqat Desktop’dan boshlanadi. Pauzadagi agent uchun
+**Resume agent** tugmasi bor. AI chat tabi orqa fonda yoki boshqa oyna ostida
+qolsa ham agent ishlashda davom etadi. Internet qisqa uzilsa, sessiyalar
+to‘xtamaydi; Desktop myscode.com bilan qayta ulanadi.
